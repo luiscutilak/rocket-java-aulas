@@ -11,9 +11,27 @@ class EstruturasRepeticao {
 
         if (dadoDoTipoInt == 10) {
             System.out.println("entrou no if");
+        } else if(dadoDoTipoInt < 12){
+            System.out.println("entrou no if do 12");
         } else {
-            System.out.println("não entrou no if");
+            System.out.println("Entrou no Else");
         }
+
+        //While (Enquanto While for verdadeiro)
+        int valorInicial = 0;
+        while (valorInicial < 3) {
+            System.out.println("o valor inicial é menor que 3");
+            valorInicial++;
+        }
+        System.out.println("Saiu do While");
+
+        //For
+        System.out.println("iniciando o for");
+        for(int i = 0; i < 4; i++) {
+            System.out.println("O valor do i é: " +i);
+        }
+
+        System.out.println("finalizando o for");
 
     }
 
