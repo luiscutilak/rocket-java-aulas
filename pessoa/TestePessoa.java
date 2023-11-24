@@ -8,16 +8,16 @@ public class TestePessoa {
         professor.setNome("Daniele");
         professor.setIdade(33);
         professor.setSalario(15000);
-
-
+        
+        System.out.println(professor.imprimirDadosDaPessoa());
+        
         Aluno aluno = new Aluno();
         aluno.setNome("Luis");
         aluno.setCpf("35457159817");
         aluno.setIdade(37);
         aluno.setMatricula("333");
 
-        System.out.println(aluno.imprimirDadosDaPessoa(1));
-        System.out.println(professor.imprimirDadosDaPessoa(2));
+        System.out.println(aluno.imprimirDadosDaPessoa());
 
     };
     

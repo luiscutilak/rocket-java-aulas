@@ -30,7 +30,7 @@ public class Pessoa {
         this.nome = nome;
     }
     
-    String imprimirDadosDaPessoa(int indice) {
+    String imprimirDadosDaPessoa() {
         return "O nome é " + nome + " a idade é " + idade + " e o CPF é " + cpf; 
     }
 };
